@@ -1,0 +1,45 @@
+
+//Front-End
+    - pages
+    - 
+
+//Backend
+    //Node server - use 11.1.1 assignment
+    //Routes
+    //Api call and response
+
+    //Create Reservation function
+        //Get user response from form on Make.html
+
+    //Check existing reservations function
+        //show 5 most recent reservations
+
+    //WaitingList function 
+        //overflow if more than 5 reservations
+
+
+//Data
+    // Customer class
+        {
+        "customerName": "x",
+            //validate has at least one char
+        "customerEmail": "x",
+            //validate is proper email use regex from homework
+        "customerID": "x",
+            //validate has at least one char and is unique
+        "customerPhone": "x"
+            //validate num only
+        },
+
+//Testing
+
+
+
+
+//tables 
+ - get from tableData.js
+ - get from WaitingList.js
+
+//reserve.html
+    - post from form to tableData.js
+        -- if more than 5 objects exist post to waitinglist
